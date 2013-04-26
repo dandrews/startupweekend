@@ -5,8 +5,9 @@ gem 'rails', '3.2.11'
 # Bundle edge Rails instead:
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
 
-gem 'sqlite3'
-
+gem 'json'
+gem 'heroku'
+gem 'pg'
 
 # Gems used only for assets and not required
 # in production environments by default.
@@ -57,3 +58,13 @@ gem "binding_of_caller", ">= 0.7.1", :group => :development, :platforms => [:mri
 gem "libv8", ">= 3.11.8"
 gem "therubyracer", ">= 0.11.3", :group => :assets, :platform => :ruby, :require => "v8"
 gem "hub", ">= 1.10.2", :require => nil, :group => [:development]
+
+# rest apis
+gem 'httparty'
+
+# pagination
+gem 'will_paginate', '~> 3.0'
+gem 'will_paginate-bootstrap'
+gem "breadcrumbs_on_rails"
+
+gem 'font-awesome-sass-rails'
